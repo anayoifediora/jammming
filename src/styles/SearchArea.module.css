@@ -16,6 +16,7 @@
     width: 250px;
     text-align: center;
     margin: 5px;
+    border: 2px solid rgb(173, 64, 64);
 }
 .button{
     padding: 5px;

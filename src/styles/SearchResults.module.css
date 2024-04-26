@@ -1,0 +1,33 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    background-color: rgb(19, 92, 202);
+    width: 500px;
+}
+
+.resultsDiv {
+    color: white;
+}
+.result {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px white;
+}
+.songName {
+    margin: 20px;
+    font-size: 1.5em;
+    width: 300px;
+    position: relative;
+    left: 0;
+    
+}
+.add {
+    font-size: 1em;
+    font-weight:bold;
+    height:30px;
+    padding-right: 10px;
+    
+}
