@@ -4,24 +4,24 @@
     align-items: center;
     justify-content: center;
     margin: 30px;
-    background-color: rgb(19, 92, 202);
+    background-color: rgb(165, 56, 96);
     width: 500px;
 }
 
 .resultsDiv {
-    color: white;
+    color: #F2e8cf;
 }
 .result {
     display: flex;
     align-items: center;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px #F2e8cf;
 }
 .songName {
-    margin: 20px;
-    font-size: 1.5em;
-    width: 300px;
-    position: relative;
-    left: 0;
+    margin: 10px;
+    font-size: 1.3em;
+    width: 350px;
+    color: #F2e8cf;
+    font-weight: bold;
     
 }
 .add {
@@ -29,5 +29,15 @@
     font-weight:bold;
     height:30px;
     padding-right: 10px;
+    
+}
+.add:hover {
+    cursor: pointer;
+    background-color:aquamarine;
+}
+.appDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
 }

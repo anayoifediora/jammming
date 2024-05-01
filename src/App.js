@@ -8,8 +8,7 @@ function App() {
   return (
     <div>
       <Header />
-      <SearchArea />
-      
+      <SearchArea /> 
     </div>
   )
 }

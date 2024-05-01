@@ -16,15 +16,15 @@
     width: 250px;
     text-align: center;
     margin: 5px;
-    border: 2px solid rgb(173, 64, 64);
+    border: 2px solid rgb(165, 56, 96);
 }
 .button{
     padding: 5px;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bolder;
     width: 120px;
     height: 40px;
-    background-color: rgb(173, 64, 64);
+    background-color: rgb(165, 56, 96);
     color: white;
     border: none;
     cursor: pointer;

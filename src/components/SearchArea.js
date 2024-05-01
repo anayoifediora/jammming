@@ -14,7 +14,7 @@ const SearchArea = () => {
     const handleFormSubmit = (e) => {
         e.preventDefault();  
 
-        const url = `https://spotify23.p.rapidapi.com/search/?q=${searchText}&type=tracks&offset=0&limit=10&numberOfTopResults=10`;
+        const url = `https://spotify23.p.rapidapi.com/search/?q=${searchText}&type=tracks&offset=0&limit=10&numberOfTopResults=7`;
         const options = {
             method: 'GET',
             headers: {
